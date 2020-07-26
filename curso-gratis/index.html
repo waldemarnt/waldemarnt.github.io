@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Curso completo de Node.js com TypeScript do desenvolvimento a produção</title>
+    <meta name="title" content="Curso completo de Node.js com TypeScript do desenvolvimento a produção">
+    <meta name="description" content="Aprenda como criar e rodar micro-serviços na cloud utilizando Node.js com TypeScript, seguindo as melhores práticas de desenvolvimento.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.nodejs-typescript-api.com/curso-gratis">
+    <meta property="og:title" content="Curso completo de Node.js com TypeScript do desenvolvimento a produção">
+    <meta property="og:description" content="Aprenda como criar e rodar micro-serviços na cloud utilizando Node.js com TypeScript, seguindo as melhores práticas de desenvolvimento.">
+    <!-- TODO: update img url -->
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.nodejs-typescript-api.com/curso-gratis">
+    <meta property="twitter:title" content="Curso completo de Node.js com TypeScript do desenvolvimento a produção">
+    <meta property="twitter:description" content="Aprenda como criar e rodar micro-serviços na cloud utilizando Node.js com TypeScript, seguindo as melhores práticas de desenvolvimento.">
+    <!-- TODO: update img url -->
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <style>
+        :root{--bg-color:#3717c7;--splash-bg-color:#0096b1;--light-bg-color:#FFF;--white-color:#FFF;--dark-color:#4A4A4A;--grey-color:#686868;--highlight-color:#72DDC3;--special-color:#76ce31;--cta-color:#ff0246}*+*{box-sizing:border-box}*{line-height:1.5}body,html{margin:0;padding:0}h1,h2,h3,h4{margin:0;text-align:center;font-weight:500}body{font-family:lato,helvetica neue,helvetica,arial,sans-serif}.uc,h1,h2{text-transform:uppercase}.h1,h1{font-size:2.45em;padding-top:1.5em}@media screen and (max-width:60em){.h1,h1{font-size:1.5em}}a{color:currentColor}section{background-color:var(--bg-color);color:var(--white-color);padding:3em 0}.section--splash{background-color:var(--splash-bg-color)}.section--light{background-color:var(--light-bg-color);color:var(--dark-color)}.section--light p{color:var(--grey-color)}.inner{max-width:60em;margin:0 auto}@media screen and (max-width:60em){.inner{max-width:40em;padding-right:2em;padding-left:2em}}.highlight{color:var(--highlight-color)}.special{color:var(--special-color);font-size:1.75em;text-align:center;margin:1em 0}@media screen and (max-width:60em){.special{font-size:1.2em}}.video{padding-top:1em;text-align:center;margin:0 auto}.video iframe{border:5px solid var(--light-bg-color)}@media screen and (min-width:60em){.video{max-width:40.37em}.columns{display:flex;align-items:center;justify-content:space-between}.column{max-width:50%}.column+.column{margin-left:1em}.columns--3{flex-flow:row wrap}.columns--3>div{width:33%}}.ts{font-weight:500;font-size:110%}.tb{font-size:1.25em}.tu{padding-bottom:1em;margin-bottom:1em;border-bottom:2px solid}.lt{text-transform:initial;font-size:3em;line-height:1.3;margin:2em 0}@media screen and (max-width:60em){.lt{font-size:1.5em}}.center{text-align:center}.inline-list li{display:inline-block}.social{list-style:none;text-align:center;padding:0}.social li{display:inline-block;margin-right:1em}.social a{color:var(--white-color)}.social i{width:24px;height:24px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}.social svg{width:60%;height:60%;fill:currentColor}.share{margin-top:2em}.share a{text-decoration:none;font-size:.75em}.share i{border:2px solid currentColor;margin-right:.5em}.follow a{border-radius:50%;display:block}.follow svg{width:50%;height:50%}.follow .fb{background-color:#537bbe}.follow .tt{background-color:#77ccf1}.follow .yt{background-color:#bb2025}.follow .in{background-color:#137bb8}.follow .ws{background-color:#54be93}.author img{width:100%;max-width:400px;border-radius:50%}input,label{display:block}input{width:100%;line-height:2;margin:.33em 0 1em}button{-webkit-apperance:none;background-color:var(--cta-color);color:var(--white-color);border:none;line-height:2;font-size:110%}.counter{margin:1em 0 3em}.counter img{display:inline-block}.stack{text-align:center}.stack h3{color:var(--highlight-color)}.stack>div{padding:1em 2em;box-sizing:border-box}.content h4{text-align:left;font-size:1.1em}.author{padding-top:4em;padding-bottom:4em}.author h3{text-align:left;text-transform:uppercase;font-size:2.25em}.author p{font-size:1.15em}#mc_embed_signup{margin-top:3em}#mc_embed_signup input.mce_inline_error{border-color:red!important;background-color:#fff!important}#mc_embed_signup div.mce_inline_error{display:none!important}#mce-success-response{margin-bottom:1em}
+    </style>
+</head>
+<body>
+    <section>
+        <div class="inner">
+            <h1>Do zero a produção: aprenda a construir uma API Node.js com TypeScript</h1>
+            <h4 class="special uc">curso gratuito</h4>
+            <div class="video">
+                <iframe width="100%" height="368" src="https://www.youtube-nocookie.com/embed/W2ld5xRS3cY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="center counter">
+                <img src="http://gen.sendtric.com/countdown/evdpsu7lp9" />
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <p class="tb ts">Aprenda como criar e rodar micro-serviços na cloud utilizando Node.js com TypeScript, seguindo as melhores práticas de desenvolvimento.</p>
+                    <ul class="social share">
+                        <li>
+                            <a href="http://www.facebook.com/sharer/sharer.php?u=https://nodejs-typescript-api.com/curso-gratis">
+                                <i>
+                                    <svg viewBox="0 0 32 32">
+                                        <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+                                    </svg>
+                                </i>
+                                Share
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/intent/tweet?text=Curso%20completo%20criando%20API%20Node.js%20com%20Typescript%20do%20desenvolvimento%20a%20produ%C3%A7%C3%A3o:%20https://nodejs-typescript-api.com/curso-gratis">
+                                <i>
+                                    <svg viewBox="0 0 32 32">
+                                        <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+                                    </svg>
+                                </i>
+                                Tweet
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fnodejs-typescript-api.com%2Fcurso-gratis">
+                                <i>
+                                    <svg viewBox="0 0 32 32">
+                                        <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
+                                        <path d="M2 12h6v18h-6v-18z"></path>
+                                        <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+                                    </svg>
+                                </i>
+                                Share
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <p class="ts">A primeira parte curso vai ser lançado no YouTube no dia <span class="highlight">06/08/2020 ás 3:00 pm</span>. Para ser avisado sobre o lançamento dos capítulos em primeira mão, se inscreva na nossa lista :)</p>
+                    <!-- Begin Mailchimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form action="https://walde.us12.list-manage.com/subscribe/post?u=390c19fe494cb5deca25d18e1&amp;id=155f7f6861" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                            <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group">
+                                    <label for="mce-EMAIL">Digite seu email </label>
+                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>    
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                    <input type="text" name="b_390c19fe494cb5deca25d18e1_155f7f6861" tabindex="-1" value="">
+                                </div>
+                                <div class="clear">
+                                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">Quero fazer parte da lista!</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                    <!-- <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
+                    <!--End mc_embed_signup-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section--splash">
+        <div class="inner">
+            <h2 class="h1 tu">9 capítulos e mais de 20 horas de curso!</h2>
+            <div class="columns content">
+                <div class="column">
+                    <h4>Capítulo 1</h4>
+                    <ul>
+                        <li>Setup Typescript</li>
+                        <li>eslint</li>
+                        <li>Jest + Typescript</li>
+                        <li>Setup de testes de integração com Supertest + types</li>
+                        <li>Setup do servidor Node.js com Overnightjs (express)</li>
+                    </ul>
+                    <h4>Capítulo 2</h4>    
+                    <ul>
+                        <li>Integração com serviço externo</li>
+                        <li>Design da API</li>
+                        <li>Boas práticas de tratamento de erros</li>
+                        <li>Configuração dinâmica com node-config</li>
+                        <li>Jest Mocks + Typescript</li>
+                    </ul>
+                    <h4>Capítulo 3</h4>    
+                    <ul>
+                        <li>Criação do serviço de Forecast que processa a previsão do surf para as praias</li>
+                    </ul>
+                    <h4>Capítulo 4</h4>    
+                    <ul>
+                        <li>Criação do módulo de usuários</li>
+                        <li>Integração com MongoDB utilizando Mongoose</li>
+                        <li>Testes de integração com nock</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Capítulo 5</h4>
+                    <ul>
+                        <li>Validações avançadas com Mongoose</li>
+                        <li>Encriptação de senha com bcrypt e Mongoose</li>
+                        <li>Unificação dos controllers utilizando um controller abstrato</li>
+                        <li>Json Web Token - Gerando e validando tokens</li>
+                        <li>Express middlewares</li>
+                        <li>Typescript module augmentation</li>
+                    </ul>
+                    <h4>Capítulo 6</h4>
+                    <uL>
+                        <li>Setup do ambiente na Umbler</li>
+                        <li>Setup do Github Workflows para rodar os testes</li>
+                        <li>Setup do Github Workflows para fazer deploy automaticamente para a Umbler</li>
+                    </ul>
+                    <h4>Capítulo 7</h4>
+                    <ul>
+                        <li>Logger utilizando pino</li>
+                        <li>Graceful shutdown</li>
+                        <li>Formatação padrão de erros da API</li>
+                    </ul>
+                    <h4>Capítulo 8</h4>
+                    <ul>
+                        <li>Cálculo do rating (estrelinhas) para cada praia</li>
+                    </ul>
+                    <h4>Capítulo 9</h4>
+                    <ul>
+                        <li>Testes de ponta a ponta com o front-end consumindo a API</li>
+                        <li>Rate limit</li>
+                        <li>Documentação com Open API</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section--light">
+        <div class="inner">
+            <h2 class="h1">Para quem é esse curso?</h2>
+            <p>Este curso vai ajudar tanto aos iniciantes em Node.js e TypeScript quanto as pessoas que já tem experiência em desenvolvimento e querem aprender como rodar serviços em produção com qualidade, de maneira segura e escalável. É esperado que você já tenha trabalhado com Javascript e desenvolvimento web, e que tenha conhecimento básico de Node.js.</p>
+        </div>
+    </section>
+    <section>
+        <div class="inner">
+            <h2 class='lt'>Você vai aprender na prática, com as ferramentas e metodologias mais usadas no mercado</h2>
+            <div class="columns columns--3 stack">
+                <div>
+                    <img src="./nodejs.png" alt="" style="margin: 1em">
+                    <h3>Node.js</h3>
+                    <p>Node.js lidera o mundo dos micro-serviços por sua flexibilidade e grande apoio da comunidade.</p>
+                </div>
+                <div>
+                    <img src="./ts.png" alt="">
+                    <h3>TypeScript</h3>
+                    <p><i>TypeScript</i> adiciona tipos ao <i>JavaScript</i> e traz as últimas funcionalidades do <i>EcmaScript</i> melhorando muito a experiência de desenvolvimento.</p>
+                </div>
+                <div>
+                    <img src="./tdd.png" alt="">
+                    <h3>TDD</h3>
+                    <p><i>"Test Driven Development"</i> ou "Desenvolvimento Guiado Por Testes" é uma metodologia de desenvolvimento que foca em qualidade e velocidade</p>
+                </div>    
+                <div>
+                    <img src="./gh.png" alt="">
+                    <h3><i>Continuous Deployment</i> com Github Actions</h3>
+                    <p><i>Continous Deployment</i> é a pratica de fazer deploy da aplicação automaticamente a cada alteração, é a prática ágil mais sofisticada quando o assunto é entregar código em produção e a ferramenta Actions e Workflows do Github permite fazer isso de forma simples e rápida.</p>
+                </div>
+                <div>    
+                    <img src="./umbler.png" alt="">
+                    <h3>Produção com a Umbler</h3>
+                    <p>Umbler é um serviço Brasileiro de host focado nas necessidades atuais das agências, dos desenvolvedores e empreendedores. Com a Umbler vamos rodar serviços na Cloud de forma simples e rápida.</p>
+                </div>
+                <div>  
+                    <img src="./cloud.png" alt="">
+                    <h3>Boas práticas de desenvolvimento de serviços na <i>Cloud</i></h3>
+                    <p>Desenvolver e manter micro-serviços na Cloud exige maturidade em práticas que vão além do código, como: logging, continuous integration, continuous delivery, continuous deployment, documentação, tratamento de erros, rate limiting entre outras que veremos no curso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section--light">
+        <div class="inner columns author">
+            <div class="column">
+                <h3>O instrutor</h3>
+                <p><b>Waldemar Neto</b> é engenheiro de software com mais de 10 anos de experiência na área e apaixonado por open-source e compartilhamento de conteúdo. Recentemente publicou o livro <a href="https://leanpub.com/construindo-apis-testaveis-com-nodejs/">Construindo APIs Testáveis com Node.js.</a></p>
+                <p>Atualmente trabalha na <a href="https://www.atlassian.com/">Atlassian</a>, e é mantenedor do canal <a href="https://www.youtube.com/user/waldemaneto">Waldemar Neto Dev Lab</a> no YouTube (onde será publicado o curso).</p>
+                <ul class="social follow">
+                    <li>
+                        <a href="https://www.facebook.com/waldemarntdevlab" class="fb">
+                            <i>
+                                <svg viewBox="0 0 32 32">
+                                    <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+                                </svg>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/waldemarnt" class="tt">
+                            <i>
+                                <svg viewBox="0 0 32 32">
+                                    <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+                                </svg>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/waldemaneto" class="yt">
+                            <i>
+                                <svg viewBox="0 0 32 32">
+                                    <path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+                                </svg>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/waldemarnt/" class="in">
+                            <i>
+                                <svg viewBox="0 0 32 32">
+                                    <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
+                                    <path d="M2 12h6v18h-6v-18z"></path>
+                                    <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+                                </svg>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://walde.co/" class="ws">
+                            <i>
+                                <svg viewBox="0 0 32 32">
+                                    <path d="M13.757 19.868c-0.416 0-0.832-0.159-1.149-0.476-2.973-2.973-2.973-7.81 0-10.783l6-6c1.44-1.44 3.355-2.233 5.392-2.233s3.951 0.793 5.392 2.233c2.973 2.973 2.973 7.81 0 10.783l-2.743 2.743c-0.635 0.635-1.663 0.635-2.298 0s-0.635-1.663 0-2.298l2.743-2.743c1.706-1.706 1.706-4.481 0-6.187-0.826-0.826-1.925-1.281-3.094-1.281s-2.267 0.455-3.094 1.281l-6 6c-1.706 1.706-1.706 4.481 0 6.187 0.635 0.635 0.635 1.663 0 2.298-0.317 0.317-0.733 0.476-1.149 0.476z"></path>
+                                    <path d="M8 31.625c-2.037 0-3.952-0.793-5.392-2.233-2.973-2.973-2.973-7.81 0-10.783l2.743-2.743c0.635-0.635 1.664-0.635 2.298 0s0.635 1.663 0 2.298l-2.743 2.743c-1.706 1.706-1.706 4.481 0 6.187 0.826 0.826 1.925 1.281 3.094 1.281s2.267-0.455 3.094-1.281l6-6c1.706-1.706 1.706-4.481 0-6.187-0.635-0.635-0.635-1.663 0-2.298s1.663-0.635 2.298 0c2.973 2.973 2.973 7.81 0 10.783l-6 6c-1.44 1.44-3.355 2.233-5.392 2.233z"></path>
+                                </svg>
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column author center">
+                <img src="./author.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script>const targetNode=document.getElementById("mce-success-response"),config={attributes:!0,childList:!0,subtree:!0},callback=function(e,t){for(let t of e)"childList"===t.type&&"Obrigado por inscrever-se!"===t.addedNodes[0].data&&(gtag("event","conversion",{send_to:"AW-612885232/sV4ECJvch9gBEPDFn6QC"}),fbq("trackCustom","subscribed"))},observer=new MutationObserver(callback);observer.observe(targetNode,config);</script>
+    <!-- Global site tag (gtag.js) - Google Ads: 612885232 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-612885232"></script>
+    <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-612885232");</script>
+    <!-- Facebook Pixel Code -->
+    <script>!function(e,t,n,c,o,a,f){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src="https://connect.facebook.net/en_US/fbevents.js",(f=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,f))}(window,document,"script"),fbq("init","2591346827792602"),fbq("track","PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2591346827792602&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+</html>
